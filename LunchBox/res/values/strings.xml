@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Lunch Box</string>
+    <string name="menu_settings">About</string>
+    <string name="title_activity_root_table">RootTable</string>
+    <string name="title_activity_lunch_event">LunchEvent</string>
+    <string name="title_activity_add_lunch">AddLunch</string>
+    <string name="ok">OK</string>
+    <string name="about">Creator: Dallin Christensen\nDesigner: Chase Roberts\nCreation date: February 2013\nMade for nonprofit use by BYU students\nAll rights reserved</string>
+    <string name="_drawable_edittext_rounded_corners">\@drawable/edittext_rounded_corners</string>
+    <string name="your_email">Your Email</string>
+    <string name="cosmo_byu_edu">cosmo@byu.edu</string>
+    <string name="the_menu">The Menu</string>
+    <string name="date_amp_time">Date &amp;amp; Time</string>
+    <string name="pizza_amp_rootbeer">Pizza &amp;amp; Rootbeer</string>
+    <string name="feb_7_2013_8_58_pm">Feb 7, 2013, 8:58 PM</string>
+    <string name="location">Location</string>
+    <string name="_1190_talmage_bldg">1190 Talmage Bldg</string>
+    <string name="event_name">Event Name</string>
+    <string name="acm_club_meeting">ACM Club meeting</string>
+    <string name="what_s_the_catch_">What\'s the catch?</string>
+    <string name="what_do_you_have_to_do_for_the_food_">What do you have to do for the food?</string>
+    <string name="preview">Preview</string>
+    <string name="what_apos_s_the_catch_">What&amp;apos;s the Catch?</string>
+    <string name="submit_free_lunch">Submit Free Lunch</string>
+    <string name="line">line</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+</resources>

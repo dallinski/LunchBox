@@ -1,0 +1,87 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".lunchEvent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:id="@+id/addLunchScrollView" >
+    
+    <LinearLayout
+	    android:id="@+id/LinearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/menu"
+	    android:orientation="vertical" >
+
+        <TextView
+	        android:id="@+id/titleText"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:textSize="30sp"
+	        android:textIsSelectable="false"
+	        android:textColor="#800000" />
+	
+	    <ImageView
+	        android:id="@+id/imageView1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:src="@drawable/line" 
+	        android:contentDescription="@string/line"/>
+	
+	    <TextView
+	        android:id="@+id/menu"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="10dp"
+	        android:textSize="25sp"
+	        android:textIsSelectable="false"
+	        android:textColor="#800000" />
+	    
+	    <TextView 
+	        android:id="@+id/time" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+	        android:textSize="18sp" 
+	        android:textIsSelectable="false"
+	        android:textColor="#800000" />
+	    
+	    <TextView 
+	        android:id="@+id/place" 
+	        android:layout_width="wrap_content" 
+	        android:layout_height="wrap_content" 
+	        android:textSize="18sp" 
+	        android:textIsSelectable="true"
+	        android:textColor="#800000" />
+	
+	    <TextView
+	        android:id="@+id/theCatch"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:textSize="20sp"
+	        android:text="@string/what_s_the_catch_"
+	        android:textColor="#800000" />
+	
+	    <TextView
+	        android:id="@+id/description"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="10dp"
+	        android:textSize="18sp"
+	        android:textIsSelectable="true"
+	        android:textColor="#800000" />
+	
+	    <Button
+	        android:id="@+id/submit"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal"
+	        android:text="@string/submit_free_lunch"
+	        android:onClick="submit" />
+        
+	</LinearLayout>
+
+</ScrollView>
